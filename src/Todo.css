@@ -1,0 +1,29 @@
+#table td{ 
+    font-size: 24px;
+    padding-left: 10px;
+    padding-bottom: 100px;
+    padding-top: 10px;
+    margin-bottom: 20px;
+    display: inline;
+    /* position: relative; */
+    flex-direction: column;
+}
+
+#table{
+    border-collapse: separate;
+    border-spacing: 0px 15px;
+}
+
+#completebutton{ 
+    position: absolute;
+    left: 600px
+}
+#deletebutton{ 
+    position: absolute;
+    left: 520px; 
+    border-radius: 20px;
+}
+
+.fa-times:active{
+    color: rgb(189, 35, 35);
+}
