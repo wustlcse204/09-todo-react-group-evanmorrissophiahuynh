@@ -18,7 +18,7 @@ body {
     color: rgb(97, 80, 252);
     font-weight: bold;
     position: relative;
-    top:10px;
+    top:40px;
     font-size: 19px;
     border-bottom: 2px whitesmoke;
 }
@@ -50,47 +50,8 @@ body {
 }
 
 
-#add-task2{
-    color: white;
-    display: none;
-    position: fixed;
-    padding: 0;
-    margin: 0;
-    top: 0;
-    left: 0;
-    z-index: 1;
-    background-color: rgba(0, 0, 0, 0.767);
-    width: 100%;
-    height: 100%;
-}
 
-.formdata{  
-    position: fixed;
-    left: 27%; 
-    top: 18%;
-}
 
-.formTitle{
-    position: fixed;
-    top: 3%;
-    font-size: 50px;
-    text-align: center;
-    
-}
-
-.formdata label{  
-
-    display: block;
-    font-size: 20px;
-
-}
-.formdata input{ 
-    margin-top: 10px;
-    margin-bottom: 10px;
-    padding-top: 5px;
-    padding-bottom: 5px;
-    width: 300%;
-} 
 
 
 
@@ -144,6 +105,30 @@ body {
 }
 
 
+.form_prompt{ 
+    background-color: rgba(97, 80, 252, 0.089);
+}
+
+.sortbutton{ 
+    position: relative;
+    
+    background-color: white;
+    border: none;
+    color: black;
+    font-weight: bold;
+    display: inline-block;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    border-radius: 5px;
 
 
+}
 
+.buttonsort{ 
+    position: fixed;
+    top: 80px; 
+    left: 43%;
+
+}

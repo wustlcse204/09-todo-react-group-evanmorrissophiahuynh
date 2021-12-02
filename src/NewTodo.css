@@ -1,15 +1,16 @@
 #add-task2{
+    font-size: 20px;
     color: white;
-    display: none;
-    position: fixed;
+    display: block;
+    position: absolute;
     padding: 0;
-    margin: 0;
-    top: 0;
+    margin-bottom: 30px;
+    top: 0px;
     left: 0;
     z-index: 1;
-    background-color: rgba(0, 0, 0, 0.767);
-    width: 100%;
-    height: 100%;
+    /* background-color: rgba(0, 0, 0, 0.767); */
+    /* width: 100%; */
+    /* height: 100%; */
 }
 
 .formdata{  
@@ -40,21 +41,18 @@
     width: 300%;
 } 
 
-.btn{
-    background-color: white;
-    border: none;
-    color: black;
-    font-weight: bold;
+/* #textbox{ 
     display: inline-block;
-    padding-left: 10px;
-    padding-right: 10px;
-    padding-top: 5px;
-    padding-bottom: 5px;
-    border-radius: 5px;
+} */
+.textbox{ 
+    position: fixed;
+    left: 57%;
+    top: 120px;
 }
 
-#close_button{ 
-    position: relative;
-    left: 70%;
-    top: 11%;
+.btn{ 
+    position: fixed;
+    top: 120px;
+    left: 69%;
+
 }
